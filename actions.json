@@ -1,0 +1,5314 @@
+[
+  {
+    "name": "Sinew",
+    "image": "/images/Sinew.png",
+    "level": 1,
+    "xp": 3,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw beef",
+        "image": "/images/Raw_beef.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 74.0,
+      "sell": 228.0,
+      "margin": 154.0,
+      "margin_percent": 51.33
+    },
+    "members_only": true
+  },
+  {
+    "name": "Anchovies",
+    "image": "/images/Anchovies.png",
+    "level": 1,
+    "xp": 30,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw anchovies",
+        "image": "/images/Raw_anchovies.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 33.0,
+      "sell": 36.0,
+      "margin": 3.0,
+      "margin_percent": 0.1
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked chicken",
+    "image": "/images/Cooked_chicken.png",
+    "level": 1,
+    "xp": 30,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw chicken",
+        "image": "/images/Raw_chicken.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 36.0,
+      "sell": 96.0,
+      "margin": 60.0,
+      "margin_percent": 2.0
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked meat",
+    "image": "/images/Cooked_meat.png",
+    "level": 1,
+    "xp": 30,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw beef",
+        "image": "/images/Raw_beef.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 74.0,
+      "sell": 126.0,
+      "margin": 52.0,
+      "margin_percent": 1.73
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked rabbit",
+    "image": "/images/Cooked_rabbit.png",
+    "level": 1,
+    "xp": 30,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw rabbit",
+        "image": "/images/Raw_rabbit.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 175.0,
+      "sell": 477.0,
+      "margin": 302.0,
+      "margin_percent": 10.07
+    },
+    "members_only": true
+  },
+  {
+    "name": "Shrimps",
+    "image": "/images/Shrimps.png",
+    "level": 1,
+    "xp": 30,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw shrimps",
+        "image": "/images/Raw_shrimps.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 90.0,
+      "sell": 25.0,
+      "margin": null,
+      "margin_percent": -2.17
+    },
+    "members_only": true
+  },
+  {
+    "name": "Bread",
+    "image": "/images/Bread.png",
+    "level": 1,
+    "xp": 40,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bread dough",
+        "image": "/images/Bread_dough.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 152.0,
+      "sell": 104.0,
+      "margin": null,
+      "margin_percent": -1.2
+    },
+    "members_only": true
+  },
+  {
+    "name": "Sardine",
+    "image": "/images/Sardine.png",
+    "level": 1,
+    "xp": 40,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw sardine",
+        "image": "/images/Raw_sardine.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 68.0,
+      "sell": 34.0,
+      "margin": null,
+      "margin_percent": -0.85
+    },
+    "members_only": true
+  },
+  {
+    "name": "Ugthanki meat",
+    "image": "/images/Ugthanki_meat.png",
+    "level": 1,
+    "xp": 40,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw ugthanki meat",
+        "image": "/images/Raw_ugthanki_meat.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1472.0,
+      "sell": 827.0,
+      "margin": null,
+      "margin_percent": -16.12
+    },
+    "members_only": true
+  },
+  {
+    "name": "Poison karambwan",
+    "image": "/images/Poison_karambwan.png",
+    "level": 1,
+    "xp": 80,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw karambwan",
+        "image": "/images/Raw_karambwan.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 368.0,
+      "sell": 0.0,
+      "margin": null,
+      "margin_percent": -4.6
+    },
+    "members_only": true
+  },
+  {
+    "name": "Herring",
+    "image": "/images/Herring.png",
+    "level": 5,
+    "xp": 50,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw herring",
+        "image": "/images/Raw_herring.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 135.0,
+      "sell": 37.0,
+      "margin": null,
+      "margin_percent": -1.96
+    },
+    "members_only": true
+  },
+  {
+    "name": "Fruit blast",
+    "image": "/images/Fruit_blast.png",
+    "level": 6,
+    "xp": 50,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pineapple",
+        "image": "/images/Pineapple.png",
+        "quantity": 1
+      },
+      {
+        "name": "Lemon",
+        "image": "/images/Lemon.png",
+        "quantity": 1
+      },
+      {
+        "name": "Orange",
+        "image": "/images/Orange.png",
+        "quantity": 1
+      },
+      {
+        "name": "Lemon slices",
+        "image": "/images/Lemon_slices.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cocktail glass",
+        "image": "/images/Cocktail_glass.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 603.0,
+      "sell": 2672.0,
+      "margin": 2069.0,
+      "margin_percent": 41.38
+    },
+    "members_only": true
+  },
+  {
+    "name": "Guppy",
+    "image": "/images/Guppy.png",
+    "level": 7,
+    "xp": 12,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw guppy",
+        "image": "/images/Raw_guppy.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 0.0,
+      "sell": 0.0,
+      "margin": 0.0,
+      "margin_percent": 0.0
+    },
+    "members_only": true
+  },
+  {
+    "name": "Baked potato",
+    "image": "/images/Baked_potato.png",
+    "level": 7,
+    "xp": 15,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Potato",
+        "image": "/images/Potato.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 46.0,
+      "sell": 212.0,
+      "margin": 166.0,
+      "margin_percent": 11.07
+    },
+    "members_only": true
+  },
+  {
+    "name": "Pineapple punch",
+    "image": "/images/Pineapple_punch.png",
+    "level": 8,
+    "xp": 70,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pineapple",
+        "image": "/images/Pineapple.png",
+        "quantity": 2
+      },
+      {
+        "name": "Lemon",
+        "image": "/images/Lemon.png",
+        "quantity": 2
+      },
+      {
+        "name": "Orange",
+        "image": "/images/Orange.png",
+        "quantity": 2
+      },
+      {
+        "name": "Lime chunks",
+        "image": "/images/Lime_chunks.png",
+        "quantity": 2
+      },
+      {
+        "name": "Orange slices",
+        "image": "/images/Orange_slices.png",
+        "quantity": 2
+      },
+      {
+        "name": "Pineapple chunks",
+        "image": "/images/Pineapple_chunks.png",
+        "quantity": 2
+      },
+      {
+        "name": "Cocktail glass",
+        "image": "/images/Cocktail_glass.png",
+        "quantity": 2
+      }
+    ],
+    "costs": {
+      "buy": 1209.0,
+      "sell": 83.0,
+      "margin": null,
+      "margin_percent": -16.09
+    },
+    "members_only": true
+  },
+  {
+    "name": "Spicy sauce",
+    "image": "/images/Spicy_sauce.png",
+    "level": 9,
+    "xp": 25,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Chopped garlic",
+        "image": "/images/Chopped_garlic.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gnome spice",
+        "image": "/images/Gnome_spice.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 534.0,
+      "sell": 668.0,
+      "margin": 134.0,
+      "margin_percent": 5.36
+    },
+    "members_only": true
+  },
+  {
+    "name": "Mackerel",
+    "image": "/images/Mackerel.png",
+    "level": 10,
+    "xp": 60,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw mackerel",
+        "image": "/images/Raw_mackerel.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 36.0,
+      "sell": 26.0,
+      "margin": null,
+      "margin_percent": -0.17
+    },
+    "members_only": true
+  },
+  {
+    "name": "Redberry pie\n(pre-made pie & using Bake Pie spell)",
+    "image": "/images/Redberry_pie.png",
+    "level": 10,
+    "xp": 78,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Uncooked berry pie",
+        "image": "/images/Uncooked_berry_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 627.0,
+      "sell": 77.0,
+      "margin": null,
+      "margin_percent": -7.05
+    },
+    "members_only": true
+  },
+  {
+    "name": "Redberry pie\n(from scratch & using Bake Pie spell)",
+    "image": "/images/Redberry_pie.png",
+    "level": 10,
+    "xp": 78,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Redberries",
+        "image": "/images/Redberries.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 339.0,
+      "sell": 77.0,
+      "margin": null,
+      "margin_percent": -3.36
+    },
+    "members_only": true
+  },
+  {
+    "name": "Redberry pie\n(from scratch)",
+    "image": "/images/Redberry_pie.png",
+    "level": 10,
+    "xp": 78,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Redberries",
+        "image": "/images/Redberries.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 245.0,
+      "sell": 77.0,
+      "margin": null,
+      "margin_percent": -2.15
+    },
+    "members_only": true
+  },
+  {
+    "name": "Redberry pie\n(pre-made pie)",
+    "image": "/images/Redberry_pie.png",
+    "level": 10,
+    "xp": 78,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Uncooked berry pie",
+        "image": "/images/Uncooked_berry_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 533.0,
+      "sell": 77.0,
+      "margin": null,
+      "margin_percent": -5.85
+    },
+    "members_only": true
+  },
+  {
+    "name": "Toad crunchies",
+    "image": "/images/Toad_crunchies.png",
+    "level": 10,
+    "xp": 100,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Crunchy tray",
+        "image": "/images/Crunchy_tray.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gianne dough",
+        "image": "/images/Gianne_dough.png",
+        "quantity": 1
+      },
+      {
+        "name": "Toad's legs",
+        "image": "/images/Toad%27s_legs.png",
+        "quantity": 1
+      },
+      {
+        "name": "Equa leaves",
+        "image": "/images/Equa_leaves.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1519.0,
+      "sell": 5418.0,
+      "margin": 3899.0,
+      "margin_percent": 38.99
+    },
+    "members_only": true
+  },
+  {
+    "name": "Chilli con carne",
+    "image": "/images/Chilli_con_carne.png",
+    "level": 11,
+    "xp": 25,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Spicy sauce",
+        "image": "/images/Spicy_sauce.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooked meat",
+        "image": "/images/Cooked_meat.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 794.0,
+      "sell": 39.0,
+      "margin": null,
+      "margin_percent": -30.2
+    },
+    "members_only": true
+  },
+  {
+    "name": "Roast bird meat",
+    "image": "/images/Roast_bird_meat.png",
+    "level": 11,
+    "xp": 60,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw bird meat",
+        "image": "/images/Raw_bird_meat.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 36.0,
+      "sell": 18.0,
+      "margin": null,
+      "margin_percent": -0.3
+    },
+    "members_only": true
+  },
+  {
+    "name": "Thin snail meat",
+    "image": "/images/Thin_snail_meat.png",
+    "level": 12,
+    "xp": 70,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Thin snail",
+        "image": "/images/Thin_snail.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 357.0,
+      "sell": 109.0,
+      "margin": null,
+      "margin_percent": -3.54
+    },
+    "members_only": true
+  },
+  {
+    "name": "Spicy crunchies",
+    "image": "/images/Spicy_crunchies.png",
+    "level": 12,
+    "xp": 100,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Crunchy tray",
+        "image": "/images/Crunchy_tray.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gianne dough",
+        "image": "/images/Gianne_dough.png",
+        "quantity": 1
+      },
+      {
+        "name": "Equa leaves",
+        "image": "/images/Equa_leaves.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 818.0,
+      "sell": 2143.0,
+      "margin": 1325.0,
+      "margin_percent": 13.25
+    },
+    "members_only": true
+  },
+  {
+    "name": "Scrambled egg",
+    "image": "/images/Scrambled_egg.png",
+    "level": 13,
+    "xp": 50,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Uncooked egg",
+        "image": "/images/Uncooked_egg.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 16.0,
+      "sell": 32.0,
+      "margin": 16.0,
+      "margin_percent": 0.32
+    },
+    "members_only": true
+  },
+  {
+    "name": "Worm crunchies",
+    "image": "/images/Worm_crunchies.png",
+    "level": 14,
+    "xp": 100,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Crunchy tray",
+        "image": "/images/Crunchy_tray.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gianne dough",
+        "image": "/images/Gianne_dough.png",
+        "quantity": 1
+      },
+      {
+        "name": "King worm",
+        "image": "/images/King_worm.png",
+        "quantity": 1
+      },
+      {
+        "name": "Equa leaves",
+        "image": "/images/Equa_leaves.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1115.0,
+      "sell": 3364.0,
+      "margin": 2249.0,
+      "margin_percent": 22.49
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cider",
+    "image": "/images/Cider.png",
+    "level": 14,
+    "xp": 182,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Apple mush",
+        "image": "/images/Apple_mush.png",
+        "quantity": 4
+      },
+      {
+        "name": "Ale yeast",
+        "image": "/images/Ale_yeast.png",
+        "quantity": 4
+      },
+      {
+        "name": "Beer glass",
+        "image": "/images/Beer_glass.png",
+        "quantity": 4
+      }
+    ],
+    "costs": {
+      "buy": 3714.0,
+      "sell": 584.0,
+      "margin": null,
+      "margin_percent": -17.2
+    },
+    "members_only": true
+  },
+  {
+    "name": "Trout",
+    "image": "/images/Trout.png",
+    "level": 15,
+    "xp": 70,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw trout",
+        "image": "/images/Raw_trout.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 119.0,
+      "sell": 65.0,
+      "margin": null,
+      "margin_percent": -0.77
+    },
+    "members_only": true
+  },
+  {
+    "name": "Roast rabbit",
+    "image": "/images/Roast_rabbit.png",
+    "level": 16,
+    "xp": 70,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw rabbit",
+        "image": "/images/Raw_rabbit.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 175.0,
+      "sell": 97.0,
+      "margin": null,
+      "margin_percent": -1.11
+    },
+    "members_only": true
+  },
+  {
+    "name": "Spider on shaft",
+    "image": "/images/Spider_on_shaft.png",
+    "level": 16,
+    "xp": 80,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Spider carcass",
+        "image": "/images/Spider_carcass.png",
+        "quantity": 1
+      },
+      {
+        "name": "Arrow shaft",
+        "image": "/images/Arrow_shaft_5.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 394.0,
+      "sell": 210.0,
+      "margin": null,
+      "margin_percent": -2.3
+    },
+    "members_only": true
+  },
+  {
+    "name": "Spider on stick",
+    "image": "/images/Spider_on_stick.png",
+    "level": 16,
+    "xp": 80,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Spider carcass",
+        "image": "/images/Spider_carcass.png",
+        "quantity": 1
+      },
+      {
+        "name": "Skewer stick",
+        "image": "/images/Skewer_stick.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 460.0,
+      "sell": 221.0,
+      "margin": null,
+      "margin_percent": -2.99
+    },
+    "members_only": true
+  },
+  {
+    "name": "Chocchip crunchies",
+    "image": "/images/Chocchip_crunchies.png",
+    "level": 16,
+    "xp": 100,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Crunchy tray",
+        "image": "/images/Crunchy_tray.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gianne dough",
+        "image": "/images/Gianne_dough.png",
+        "quantity": 1
+      },
+      {
+        "name": "Chocolate dust",
+        "image": "/images/Chocolate_dust.png",
+        "quantity": 1
+      },
+      {
+        "name": "Chocolate bar",
+        "image": "/images/Chocolate_bar.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 730.0,
+      "sell": 2190.0,
+      "margin": 1460.0,
+      "margin_percent": 14.6
+    },
+    "members_only": true
+  },
+  {
+    "name": "Lean snail meat",
+    "image": "/images/Lean_snail_meat.png",
+    "level": 17,
+    "xp": 80,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Lean snail",
+        "image": "/images/Lean_snail.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 2462.0,
+      "sell": 2654.0,
+      "margin": 192.0,
+      "margin_percent": 2.4
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cod",
+    "image": "/images/Cod.png",
+    "level": 18,
+    "xp": 75,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw cod",
+        "image": "/images/Raw_cod.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 37.0,
+      "sell": 36.0,
+      "margin": null,
+      "margin_percent": -0.01
+    },
+    "members_only": true
+  },
+  {
+    "name": "Wizard blizzard",
+    "image": "/images/Wizard_blizzard.png",
+    "level": 18,
+    "xp": 110,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "image": "/images/Vodka.png",
+        "quantity": 2
+      },
+      {
+        "name": "Gin",
+        "image": "/images/Gin.png",
+        "quantity": 2
+      },
+      {
+        "name": "Lime",
+        "image": "/images/Lime.png",
+        "quantity": 2
+      },
+      {
+        "name": "Lemon",
+        "image": "/images/Lemon.png",
+        "quantity": 2
+      },
+      {
+        "name": "Orange",
+        "image": "/images/Orange.png",
+        "quantity": 2
+      },
+      {
+        "name": "Pineapple chunks",
+        "image": "/images/Pineapple_chunks.png",
+        "quantity": 2
+      },
+      {
+        "name": "Lime slices",
+        "image": "/images/Lime_slices.png",
+        "quantity": 2
+      },
+      {
+        "name": "Cocktail glass",
+        "image": "/images/Cocktail_glass.png",
+        "quantity": 2
+      }
+    ],
+    "costs": {
+      "buy": 1361.0,
+      "sell": 82.0,
+      "margin": null,
+      "margin_percent": -11.63
+    },
+    "members_only": true
+  },
+  {
+    "name": "Dwarven stout",
+    "image": "/images/Dwarven_stout.png",
+    "level": 19,
+    "xp": 215,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bucket of water",
+        "image": "/images/Bucket_of_water.png",
+        "quantity": 2
+      },
+      {
+        "name": "Barley malt",
+        "image": "/images/Barley_malt.png",
+        "quantity": 2
+      },
+      {
+        "name": "Hammerstone hops",
+        "image": "/images/Hammerstone_hops.png",
+        "quantity": 2
+      },
+      {
+        "name": "Ale yeast",
+        "image": "/images/Ale_yeast.png",
+        "quantity": 2
+      },
+      {
+        "name": "Beer glass",
+        "image": "/images/Beer_glass.png",
+        "quantity": 2
+      }
+    ],
+    "costs": {
+      "buy": 5890.0,
+      "sell": 880.0,
+      "margin": null,
+      "margin_percent": -23.3
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cavefish",
+    "image": "/images/Cavefish.png",
+    "level": 20,
+    "xp": 23,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw cavefish",
+        "image": "/images/Raw_cavefish.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 0.0,
+      "sell": 0.0,
+      "margin": 0.0,
+      "margin_percent": 0.0
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cup of tea\n(nettle)",
+    "image": "/images/Cup_of_tea_%28nettle%29.png",
+    "level": 20,
+    "xp": 52,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Nettle tea",
+        "image": "/images/Nettle_tea.png",
+        "quantity": 1
+      },
+      {
+        "name": "Empty cup",
+        "image": "/images/Empty_cup.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 2.0,
+      "sell": 0.0,
+      "margin": null,
+      "margin_percent": -0.04
+    },
+    "members_only": true
+  },
+  {
+    "name": "Pike",
+    "image": "/images/Pike.png",
+    "level": 20,
+    "xp": 80,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw pike",
+        "image": "/images/Raw_pike.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 114.0,
+      "sell": 42.0,
+      "margin": null,
+      "margin_percent": -0.9
+    },
+    "members_only": true
+  },
+  {
+    "name": "Meat pie\n(from scratch & using Bake Pie spell)",
+    "image": "/images/Meat_pie.png",
+    "level": 20,
+    "xp": 104,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooked meat",
+        "image": "/images/Cooked_meat.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 420.0,
+      "sell": 47.0,
+      "margin": null,
+      "margin_percent": -3.59
+    },
+    "members_only": true
+  },
+  {
+    "name": "Meat pie\n(from scratch)",
+    "image": "/images/Meat_pie.png",
+    "level": 20,
+    "xp": 104,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooked meat",
+        "image": "/images/Cooked_meat.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 326.0,
+      "sell": 47.0,
+      "margin": null,
+      "margin_percent": -2.68
+    },
+    "members_only": true
+  },
+  {
+    "name": "Meat pie\n(pre-made pie & using Bake Pie spell)",
+    "image": "/images/Meat_pie.png",
+    "level": 20,
+    "xp": 104,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Uncooked meat pie",
+        "image": "/images/Uncooked_meat_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 719.0,
+      "sell": 47.0,
+      "margin": null,
+      "margin_percent": -6.46
+    },
+    "members_only": true
+  },
+  {
+    "name": "Meat pie\n(pre-made pie)",
+    "image": "/images/Meat_pie.png",
+    "level": 20,
+    "xp": 104,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Uncooked meat pie",
+        "image": "/images/Uncooked_meat_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 625.0,
+      "sell": 47.0,
+      "margin": null,
+      "margin_percent": -5.56
+    },
+    "members_only": true
+  },
+  {
+    "name": "Short green guy",
+    "image": "/images/Short_green_guy.png",
+    "level": 20,
+    "xp": 120,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "image": "/images/Vodka.png",
+        "quantity": 1
+      },
+      {
+        "name": "Lime",
+        "image": "/images/Lime.png",
+        "quantity": 1
+      },
+      {
+        "name": "Lime slices",
+        "image": "/images/Lime_slices.png",
+        "quantity": 1
+      },
+      {
+        "name": "Equa leaves",
+        "image": "/images/Equa_leaves.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cocktail glass",
+        "image": "/images/Cocktail_glass.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1226.0,
+      "sell": 79.0,
+      "margin": null,
+      "margin_percent": -9.56
+    },
+    "members_only": true
+  },
+  {
+    "name": "Pot of cream",
+    "image": "/images/Pot_of_cream.png",
+    "level": 21,
+    "xp": 18,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bucket of milk",
+        "image": "/images/Bucket_of_milk.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 57.0,
+      "sell": 7.0,
+      "margin": null,
+      "margin_percent": -2.78
+    },
+    "members_only": true
+  },
+  {
+    "name": "Roast beast meat",
+    "image": "/images/Roast_beast_meat.png",
+    "level": 21,
+    "xp": null,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw beast meat",
+        "image": "/images/Raw_beast_meat.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 118.0,
+      "sell": 26.0,
+      "margin": null,
+      "margin_percent": -1.12
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked crab meat",
+    "image": "/images/Cooked_crab_meat_5.png",
+    "level": 21,
+    "xp": 100,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Crab meat",
+        "image": "/images/Crab_meat.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 0.0,
+      "sell": 1471.0,
+      "margin": 1471.0,
+      "margin_percent": 14.71
+    },
+    "members_only": true
+  },
+  {
+    "name": "Fat snail meat",
+    "image": "/images/Fat_snail_meat.png",
+    "level": 22,
+    "xp": 95,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Fat snail",
+        "image": "/images/Fat_snail.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1776.0,
+      "sell": 1909.0,
+      "margin": 133.0,
+      "margin_percent": 1.4
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked wild kebbit",
+    "image": "/images/Cooked_wild_kebbit.png",
+    "level": 23,
+    "xp": 73,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw wild kebbit",
+        "image": "/images/Raw_wild_kebbit.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 775.0,
+      "sell": 787.0,
+      "margin": 12.0,
+      "margin_percent": 0.16
+    },
+    "members_only": true
+  },
+  {
+    "name": "Asgarnian ale",
+    "image": "/images/Asgarnian_ale.png",
+    "level": 24,
+    "xp": 248,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bucket of water",
+        "image": "/images/Bucket_of_water.png",
+        "quantity": 2
+      },
+      {
+        "name": "Barley malt",
+        "image": "/images/Barley_malt.png",
+        "quantity": 2
+      },
+      {
+        "name": "Asgarnian hops",
+        "image": "/images/Asgarnian_hops.png",
+        "quantity": 2
+      },
+      {
+        "name": "Ale yeast",
+        "image": "/images/Ale_yeast.png",
+        "quantity": 2
+      },
+      {
+        "name": "Beer glass",
+        "image": "/images/Beer_glass.png",
+        "quantity": 2
+      }
+    ],
+    "costs": {
+      "buy": 5454.0,
+      "sell": 880.0,
+      "margin": null,
+      "margin_percent": -18.44
+    },
+    "members_only": true
+  },
+  {
+    "name": "Salmon",
+    "image": "/images/Salmon.png",
+    "level": 25,
+    "xp": 90,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw salmon",
+        "image": "/images/Raw_salmon.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 58.0,
+      "sell": 72.0,
+      "margin": 14.0,
+      "margin_percent": 0.16
+    },
+    "members_only": true
+  },
+  {
+    "name": "Stew",
+    "image": "/images/Stew.png",
+    "level": 25,
+    "xp": 117,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bowl of water",
+        "image": "/images/Bowl_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Potato",
+        "image": "/images/Potato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooked meat",
+        "image": "/images/Cooked_meat.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 241.0,
+      "sell": 43.0,
+      "margin": null,
+      "margin_percent": -1.69
+    },
+    "members_only": true
+  },
+  {
+    "name": "Fruit batta",
+    "image": "/images/Fruit_batta.png",
+    "level": 25,
+    "xp": 150,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Batta tin",
+        "image": "/images/Batta_tin.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gianne dough",
+        "image": "/images/Gianne_dough.png",
+        "quantity": 1
+      },
+      {
+        "name": "Equa leaves",
+        "image": "/images/Equa_leaves.png",
+        "quantity": 1
+      },
+      {
+        "name": "Lime chunks",
+        "image": "/images/Lime_chunks.png",
+        "quantity": 1
+      },
+      {
+        "name": "Orange chunks",
+        "image": "/images/Orange_chunks.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pineapple chunks",
+        "image": "/images/Pineapple_chunks.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1382.0,
+      "sell": 4250.0,
+      "margin": 2868.0,
+      "margin_percent": 19.12
+    },
+    "members_only": true
+  },
+  {
+    "name": "Toad batta",
+    "image": "/images/Toad_batta.png",
+    "level": 26,
+    "xp": 152,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Batta tin",
+        "image": "/images/Batta_tin.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gianne dough",
+        "image": "/images/Gianne_dough.png",
+        "quantity": 1
+      },
+      {
+        "name": "Equa leaves",
+        "image": "/images/Equa_leaves.png",
+        "quantity": 1
+      },
+      {
+        "name": "Toad's legs",
+        "image": "/images/Toad%27s_legs.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 911.0,
+      "sell": 2299.0,
+      "margin": 1388.0,
+      "margin_percent": 9.13
+    },
+    "members_only": true
+  },
+  {
+    "name": "Worm batta",
+    "image": "/images/Worm_batta.png",
+    "level": 27,
+    "xp": 154,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Batta tin",
+        "image": "/images/Batta_tin.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gianne dough",
+        "image": "/images/Gianne_dough.png",
+        "quantity": 1
+      },
+      {
+        "name": "King worm",
+        "image": "/images/King_worm.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 570.0,
+      "sell": 2481.0,
+      "margin": 1911.0,
+      "margin_percent": 12.41
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked slimy eel",
+    "image": "/images/Cooked_slimy_eel.png",
+    "level": 28,
+    "xp": 95,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw slimy eel",
+        "image": "/images/Raw_slimy_eel.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 396.0,
+      "sell": 34.0,
+      "margin": null,
+      "margin_percent": -3.81
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked sweetcorn",
+    "image": "/images/Cooked_sweetcorn.png",
+    "level": 28,
+    "xp": 104,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Sweetcorn",
+        "image": "/images/Sweetcorn.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 55.0,
+      "sell": 135.0,
+      "margin": 80.0,
+      "margin_percent": 0.77
+    },
+    "members_only": true
+  },
+  {
+    "name": "Vegetable batta",
+    "image": "/images/Vegetable_batta.png",
+    "level": 28,
+    "xp": 156,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Batta tin",
+        "image": "/images/Batta_tin.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gianne dough",
+        "image": "/images/Gianne_dough.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Dwellberries",
+        "image": "/images/Dwellberries.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cabbage",
+        "image": "/images/Cabbage.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      },
+      {
+        "name": "Onion",
+        "image": "/images/Onion.png",
+        "quantity": 1
+      },
+      {
+        "name": "Equa leaves",
+        "image": "/images/Equa_leaves.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 934.0,
+      "sell": 4057.0,
+      "margin": 3123.0,
+      "margin_percent": 20.02
+    },
+    "members_only": true
+  },
+  {
+    "name": "Mud pie\n(pre-made pie & using Bake Pie spell)",
+    "image": "/images/Mud_pie.png",
+    "level": 29,
+    "xp": 128,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Raw mud pie",
+        "image": "/images/Raw_mud_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1602.0,
+      "sell": 1244.0,
+      "margin": null,
+      "margin_percent": -2.8
+    },
+    "members_only": true
+  },
+  {
+    "name": "Mud pie\n(pre-made pie)",
+    "image": "/images/Mud_pie.png",
+    "level": 29,
+    "xp": 128,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw mud pie",
+        "image": "/images/Raw_mud_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1508.0,
+      "sell": 1244.0,
+      "margin": null,
+      "margin_percent": -2.06
+    },
+    "members_only": true
+  },
+  {
+    "name": "Mud pie\n(from scratch & using Bake Pie spell)",
+    "image": "/images/Mud_pie.png",
+    "level": 29,
+    "xp": 128,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Compost",
+        "image": "/images/Compost.png",
+        "quantity": 1
+      },
+      {
+        "name": "Bucket of water",
+        "image": "/images/Bucket_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Clay",
+        "image": "/images/Clay.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 432.0,
+      "sell": 1244.0,
+      "margin": 812.0,
+      "margin_percent": 6.34
+    },
+    "members_only": true
+  },
+  {
+    "name": "Mud pie\n(from scratch)",
+    "image": "/images/Mud_pie.png",
+    "level": 29,
+    "xp": 128,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Compost",
+        "image": "/images/Compost.png",
+        "quantity": 1
+      },
+      {
+        "name": "Bucket of water",
+        "image": "/images/Bucket_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Clay",
+        "image": "/images/Clay.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 338.0,
+      "sell": 1244.0,
+      "margin": 906.0,
+      "margin_percent": 7.08
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cheese+tom batta",
+    "image": "/images/Cheese%2Btom_batta.png",
+    "level": 29,
+    "xp": 158,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Batta tin",
+        "image": "/images/Batta_tin.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gianne dough",
+        "image": "/images/Gianne_dough.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 377.0,
+      "sell": 2551.0,
+      "margin": 2174.0,
+      "margin_percent": 13.76
+    },
+    "members_only": true
+  },
+  {
+    "name": "Greenman's ale",
+    "image": "/images/Greenman%27s_ale.png",
+    "level": 29,
+    "xp": 281,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bucket of water",
+        "image": "/images/Bucket_of_water.png",
+        "quantity": 2
+      },
+      {
+        "name": "Barley malt",
+        "image": "/images/Barley_malt.png",
+        "quantity": 2
+      },
+      {
+        "name": "Harralander",
+        "image": "/images/Harralander.png",
+        "quantity": 2
+      },
+      {
+        "name": "Ale yeast",
+        "image": "/images/Ale_yeast.png",
+        "quantity": 2
+      },
+      {
+        "name": "Beer glass",
+        "image": "/images/Beer_glass.png",
+        "quantity": 2
+      }
+    ],
+    "costs": {
+      "buy": 9386.0,
+      "sell": 1824.0,
+      "margin": null,
+      "margin_percent": -26.91
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked chompy",
+    "image": "/images/Cooked_chompy.png",
+    "level": 30,
+    "xp": 100,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw chompy",
+        "image": "/images/Raw_chompy.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 2400.0,
+      "sell": 214.0,
+      "margin": null,
+      "margin_percent": -21.86
+    },
+    "members_only": true
+  },
+  {
+    "name": "Tuna",
+    "image": "/images/Tuna.png",
+    "level": 30,
+    "xp": 100,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw tuna",
+        "image": "/images/Raw_tuna.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 65.0,
+      "sell": 153.0,
+      "margin": 88.0,
+      "margin_percent": 0.88
+    },
+    "members_only": true
+  },
+  {
+    "name": "Apple pie\n(pre-made pie & using Bake Pie spell)",
+    "image": "/images/Apple_pie.png",
+    "level": 30,
+    "xp": 130,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Uncooked apple pie",
+        "image": "/images/Uncooked_apple_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 635.0,
+      "sell": 78.0,
+      "margin": null,
+      "margin_percent": -4.28
+    },
+    "members_only": true
+  },
+  {
+    "name": "Apple pie\n(from scratch & using Bake Pie spell)",
+    "image": "/images/Apple_pie.png",
+    "level": 30,
+    "xp": 130,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooking apple",
+        "image": "/images/Cooking_apple.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 336.0,
+      "sell": 78.0,
+      "margin": null,
+      "margin_percent": -1.98
+    },
+    "members_only": true
+  },
+  {
+    "name": "Apple pie\n(from scratch)",
+    "image": "/images/Apple_pie.png",
+    "level": 30,
+    "xp": 130,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooking apple",
+        "image": "/images/Cooking_apple.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 242.0,
+      "sell": 78.0,
+      "margin": null,
+      "margin_percent": -1.26
+    },
+    "members_only": true
+  },
+  {
+    "name": "Apple pie\n(pre-made pie)",
+    "image": "/images/Apple_pie.png",
+    "level": 30,
+    "xp": 130,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Uncooked apple pie",
+        "image": "/images/Uncooked_apple_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 541.0,
+      "sell": 78.0,
+      "margin": null,
+      "margin_percent": -3.56
+    },
+    "members_only": true
+  },
+  {
+    "name": "Worm hole",
+    "image": "/images/Worm_hole.png",
+    "level": 30,
+    "xp": 170,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Gnomebowl mould",
+        "image": "/images/Gnomebowl_mould.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gianne dough",
+        "image": "/images/Gianne_dough.png",
+        "quantity": 1
+      },
+      {
+        "name": "King worm",
+        "image": "/images/King_worm.png",
+        "quantity": 1
+      },
+      {
+        "name": "Onion",
+        "image": "/images/Onion.png",
+        "quantity": 1
+      },
+      {
+        "name": "Equa leaves",
+        "image": "/images/Equa_leaves.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1598.0,
+      "sell": 3359.0,
+      "margin": 1761.0,
+      "margin_percent": 10.36
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked karambwan",
+    "image": "/images/Cooked_karambwan.png",
+    "level": 30,
+    "xp": 190,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw karambwan",
+        "image": "/images/Raw_karambwan.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 368.0,
+      "sell": 456.0,
+      "margin": 88.0,
+      "margin_percent": 0.46
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked larupia",
+    "image": "/images/Cooked_larupia.png",
+    "level": 31,
+    "xp": 91,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw larupia",
+        "image": "/images/Raw_larupia.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 224.0,
+      "sell": 532.0,
+      "margin": 308.0,
+      "margin_percent": 3.38
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked fishcake",
+    "image": "/images/Cooked_fishcake.png",
+    "level": 31,
+    "xp": 100,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw fishcake",
+        "image": "/images/Raw_fishcake.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 0.0,
+      "sell": 0.0,
+      "margin": 0.0,
+      "margin_percent": 0.0
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked barb-tailed kebbit",
+    "image": "/images/Cooked_barb-tailed_kebbit.png",
+    "level": 32,
+    "xp": 106,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw barb-tailed kebbit",
+        "image": "/images/Raw_barb-tailed_kebbit.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 333.0,
+      "sell": 676.0,
+      "margin": 343.0,
+      "margin_percent": 3.24
+    },
+    "members_only": true
+  },
+  {
+    "name": "Drunk dragon",
+    "image": "/images/Drunk_dragon.png",
+    "level": 32,
+    "xp": 160,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "image": "/images/Gin.png",
+        "quantity": 1
+      },
+      {
+        "name": "Vodka",
+        "image": "/images/Vodka.png",
+        "quantity": 1
+      },
+      {
+        "name": "Dwellberries",
+        "image": "/images/Dwellberries.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pineapple chunks",
+        "image": "/images/Pineapple_chunks.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of cream",
+        "image": "/images/Pot_of_cream.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cocktail glass",
+        "image": "/images/Cocktail_glass.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 981.0,
+      "sell": 59.0,
+      "margin": null,
+      "margin_percent": -5.76
+    },
+    "members_only": true
+  },
+  {
+    "name": "Tetra",
+    "image": "/images/Tetra.png",
+    "level": 33,
+    "xp": 31,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw tetra",
+        "image": "/images/Raw_tetra.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 0.0,
+      "sell": 0.0,
+      "margin": 0.0,
+      "margin_percent": 0.0
+    },
+    "members_only": true
+  },
+  {
+    "name": "Choc saturday",
+    "image": "/images/Choc_saturday.png",
+    "level": 33,
+    "xp": 170,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Whisky",
+        "image": "/images/Whisky.png",
+        "quantity": 1
+      },
+      {
+        "name": "Bucket of milk",
+        "image": "/images/Bucket_of_milk.png",
+        "quantity": 1
+      },
+      {
+        "name": "Chocolate dust",
+        "image": "/images/Chocolate_dust.png",
+        "quantity": 1
+      },
+      {
+        "name": "Chocolate bar",
+        "image": "/images/Chocolate_bar.png",
+        "quantity": 1
+      },
+      {
+        "name": "Equa leaves",
+        "image": "/images/Equa_leaves.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cocktail glass",
+        "image": "/images/Cocktail_glass.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 694.0,
+      "sell": 55.0,
+      "margin": null,
+      "margin_percent": -3.76
+    },
+    "members_only": true
+  },
+  {
+    "name": "Garden pie\n(from scratch & using Bake Pie spell)",
+    "image": "/images/Garden_pie.png",
+    "level": 34,
+    "xp": 128,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Onion",
+        "image": "/images/Onion.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cabbage",
+        "image": "/images/Cabbage.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 448.0,
+      "sell": 58.0,
+      "margin": null,
+      "margin_percent": -3.05
+    },
+    "members_only": true
+  },
+  {
+    "name": "Garden pie\n(from scratch)",
+    "image": "/images/Garden_pie.png",
+    "level": 34,
+    "xp": 128,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Onion",
+        "image": "/images/Onion.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cabbage",
+        "image": "/images/Cabbage.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 354.0,
+      "sell": 58.0,
+      "margin": null,
+      "margin_percent": -2.31
+    },
+    "members_only": true
+  },
+  {
+    "name": "Garden pie\n(pre-made pie)",
+    "image": "/images/Garden_pie.png",
+    "level": 34,
+    "xp": 128,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw garden pie",
+        "image": "/images/Raw_garden_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1381.0,
+      "sell": 58.0,
+      "margin": null,
+      "margin_percent": -10.34
+    },
+    "members_only": true
+  },
+  {
+    "name": "Garden pie\n(pre-made pie & using Bake Pie spell)",
+    "image": "/images/Garden_pie.png",
+    "level": 34,
+    "xp": 128,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Raw garden pie",
+        "image": "/images/Raw_garden_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1475.0,
+      "sell": 58.0,
+      "margin": null,
+      "margin_percent": -11.07
+    },
+    "members_only": true
+  },
+  {
+    "name": "Wizard's mind bomb",
+    "image": "/images/Wizard%27s_mind_bomb.png",
+    "level": 34,
+    "xp": 314,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bucket of water",
+        "image": "/images/Bucket_of_water.png",
+        "quantity": 2
+      },
+      {
+        "name": "Barley malt",
+        "image": "/images/Barley_malt.png",
+        "quantity": 2
+      },
+      {
+        "name": "Yanillian hops",
+        "image": "/images/Yanillian_hops.png",
+        "quantity": 2
+      },
+      {
+        "name": "Ale yeast",
+        "image": "/images/Ale_yeast.png",
+        "quantity": 2
+      },
+      {
+        "name": "Beer glass",
+        "image": "/images/Beer_glass.png",
+        "quantity": 2
+      }
+    ],
+    "costs": {
+      "buy": 8370.0,
+      "sell": 744.0,
+      "margin": null,
+      "margin_percent": -24.29
+    },
+    "members_only": true
+  },
+  {
+    "name": "Rainbow fish",
+    "image": "/images/Rainbow_fish.png",
+    "level": 35,
+    "xp": 110,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw rainbow fish",
+        "image": "/images/Raw_rainbow_fish.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 613.0,
+      "sell": 147.0,
+      "margin": null,
+      "margin_percent": -4.24
+    },
+    "members_only": true
+  },
+  {
+    "name": "Plain pizza\n(pre-made base)",
+    "image": "/images/Plain_pizza.png",
+    "level": 35,
+    "xp": 143,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pizza base",
+        "image": "/images/Pizza_base.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 300.0,
+      "sell": 712.0,
+      "margin": 412.0,
+      "margin_percent": 2.88
+    },
+    "members_only": true
+  },
+  {
+    "name": "Plain pizza\n(from scratch)",
+    "image": "/images/Plain_pizza.png",
+    "level": 35,
+    "xp": 143,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 237.0,
+      "sell": 712.0,
+      "margin": 475.0,
+      "margin_percent": 3.32
+    },
+    "members_only": true
+  },
+  {
+    "name": "Veg ball",
+    "image": "/images/Veg_ball.png",
+    "level": 35,
+    "xp": 175,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Gnomebowl mould",
+        "image": "/images/Gnomebowl_mould.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gianne dough",
+        "image": "/images/Gianne_dough.png",
+        "quantity": 1
+      },
+      {
+        "name": "Onion",
+        "image": "/images/Onion.png",
+        "quantity": 1
+      },
+      {
+        "name": "Potato",
+        "image": "/images/Potato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Equa leaves",
+        "image": "/images/Equa_leaves.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 818.0,
+      "sell": 1361.0,
+      "margin": 543.0,
+      "margin_percent": 3.1
+    },
+    "members_only": true
+  },
+  {
+    "name": "Jug of wine",
+    "image": "/images/Jug_of_wine.png",
+    "level": 35,
+    "xp": 200,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Grapes",
+        "image": "/images/Grapes.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 68.0,
+      "sell": 4.0,
+      "margin": null,
+      "margin_percent": -0.32
+    },
+    "members_only": true
+  },
+  {
+    "name": "Blurberry special",
+    "image": "/images/Blurberry_special.png",
+    "level": 37,
+    "xp": 180,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "image": "/images/Vodka.png",
+        "quantity": 1
+      },
+      {
+        "name": "Brandy",
+        "image": "/images/Brandy.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gin",
+        "image": "/images/Gin.png",
+        "quantity": 1
+      },
+      {
+        "name": "Lemon",
+        "image": "/images/Lemon.png",
+        "quantity": 1
+      },
+      {
+        "name": "Orange",
+        "image": "/images/Orange.png",
+        "quantity": 1
+      },
+      {
+        "name": "Lemon chunks",
+        "image": "/images/Lemon_chunks.png",
+        "quantity": 1
+      },
+      {
+        "name": "Orange chunks",
+        "image": "/images/Orange_chunks.png",
+        "quantity": 1
+      },
+      {
+        "name": "Equa leaves",
+        "image": "/images/Equa_leaves.png",
+        "quantity": 1
+      },
+      {
+        "name": "Lime slices",
+        "image": "/images/Lime_slices.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cocktail glass",
+        "image": "/images/Cocktail_glass.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1316.0,
+      "sell": 4588.0,
+      "margin": 3272.0,
+      "margin_percent": 18.18
+    },
+    "members_only": true
+  },
+  {
+    "name": "Pat of butter",
+    "image": "/images/Pat_of_butter.png",
+    "level": 38,
+    "xp": null,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bucket of milk",
+        "image": "/images/Bucket_of_milk.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 57.0,
+      "sell": 22.0,
+      "margin": null,
+      "margin_percent": -0.86
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cave eel",
+    "image": "/images/Cave_eel.png",
+    "level": 38,
+    "xp": 115,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw cave eel",
+        "image": "/images/Raw_cave_eel.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 329.0,
+      "sell": 105.0,
+      "margin": null,
+      "margin_percent": -1.95
+    },
+    "members_only": true
+  },
+  {
+    "name": "Potato with butter",
+    "image": "/images/Potato_with_butter.png",
+    "level": 39,
+    "xp": 40,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Baked potato",
+        "image": "/images/Baked_potato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pat of butter",
+        "image": "/images/Pat_of_butter.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 234.0,
+      "sell": 367.0,
+      "margin": 133.0,
+      "margin_percent": 3.33
+    },
+    "members_only": true
+  },
+  {
+    "name": "Dragon bitter",
+    "image": "/images/Dragon_bitter.png",
+    "level": 39,
+    "xp": 347,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bucket of water",
+        "image": "/images/Bucket_of_water.png",
+        "quantity": 2
+      },
+      {
+        "name": "Barley malt",
+        "image": "/images/Barley_malt.png",
+        "quantity": 2
+      },
+      {
+        "name": "Krandorian hops",
+        "image": "/images/Krandorian_hops.png",
+        "quantity": 2
+      },
+      {
+        "name": "Ale yeast",
+        "image": "/images/Ale_yeast.png",
+        "quantity": 2
+      },
+      {
+        "name": "Beer glass",
+        "image": "/images/Beer_glass.png",
+        "quantity": 2
+      }
+    ],
+    "costs": {
+      "buy": 4662.0,
+      "sell": 1768.0,
+      "margin": null,
+      "margin_percent": -8.34
+    },
+    "members_only": true
+  },
+  {
+    "name": "Lobster",
+    "image": "/images/Lobster.png",
+    "level": 40,
+    "xp": 120,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw lobster",
+        "image": "/images/Raw_lobster.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 71.0,
+      "sell": 229.0,
+      "margin": 158.0,
+      "margin_percent": 1.32
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cake",
+    "image": "/images/Cake.png",
+    "level": 40,
+    "xp": 180,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Cake tin",
+        "image": "/images/Cake_tin.png",
+        "quantity": 1
+      },
+      {
+        "name": "Egg",
+        "image": "/images/Egg.png",
+        "quantity": 1
+      },
+      {
+        "name": "Bucket of milk",
+        "image": "/images/Bucket_of_milk.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 294.0,
+      "sell": 136.0,
+      "margin": null,
+      "margin_percent": -0.88
+    },
+    "members_only": true
+  },
+  {
+    "name": "Tangled toad's legs",
+    "image": "/images/Tangled_toad%27s_legs.png",
+    "level": 40,
+    "xp": 185,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Gnomebowl mould",
+        "image": "/images/Gnomebowl_mould.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gianne dough",
+        "image": "/images/Gianne_dough.png",
+        "quantity": 1
+      },
+      {
+        "name": "Toad's legs",
+        "image": "/images/Toad%27s_legs.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      },
+      {
+        "name": "Equa leaves",
+        "image": "/images/Equa_leaves.png",
+        "quantity": 1
+      },
+      {
+        "name": "Dwellberries",
+        "image": "/images/Dwellberries.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 2793.0,
+      "sell": 765.0,
+      "margin": null,
+      "margin_percent": -10.96
+    },
+    "members_only": true
+  },
+  {
+    "name": "Chilli potato",
+    "image": "/images/Chilli_potato.png",
+    "level": 41,
+    "xp": 15,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Potato with butter",
+        "image": "/images/Potato_with_butter.png",
+        "quantity": 1
+      },
+      {
+        "name": "Chilli con carne",
+        "image": "/images/Chilli_con_carne.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 406.0,
+      "sell": 149.0,
+      "margin": null,
+      "margin_percent": -17.13
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked graahk",
+    "image": "/images/Cooked_graahk.png",
+    "level": 41,
+    "xp": 124,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw graahk",
+        "image": "/images/Raw_graahk.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 202.0,
+      "sell": 722.0,
+      "margin": 520.0,
+      "margin_percent": 4.19
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked jubbly",
+    "image": "/images/Cooked_jubbly.png",
+    "level": 41,
+    "xp": 160,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw jubbly",
+        "image": "/images/Raw_jubbly.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 650.0,
+      "sell": 1463.0,
+      "margin": 813.0,
+      "margin_percent": 5.08
+    },
+    "members_only": true
+  },
+  {
+    "name": "Fried onions",
+    "image": "/images/Fried_onions.png",
+    "level": 42,
+    "xp": 60,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Chopped onion",
+        "image": "/images/Chopped_onion.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 87.0,
+      "sell": 29.0,
+      "margin": null,
+      "margin_percent": -0.97
+    },
+    "members_only": true
+  },
+  {
+    "name": "Chocolate bomb",
+    "image": "/images/Chocolate_bomb.png",
+    "level": 42,
+    "xp": 190,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Gnomebowl mould",
+        "image": "/images/Gnomebowl_mould.png",
+        "quantity": 1
+      },
+      {
+        "name": "Gianne dough",
+        "image": "/images/Gianne_dough.png",
+        "quantity": 1
+      },
+      {
+        "name": "Chocolate bar",
+        "image": "/images/Chocolate_bar.png",
+        "quantity": 1
+      },
+      {
+        "name": "Equa leaves",
+        "image": "/images/Equa_leaves.png",
+        "quantity": 1
+      },
+      {
+        "name": "Chocolate dust",
+        "image": "/images/Chocolate_dust.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of cream",
+        "image": "/images/Pot_of_cream.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 914.0,
+      "sell": 729.0,
+      "margin": null,
+      "margin_percent": -0.97
+    },
+    "members_only": true
+  },
+  {
+    "name": "Bass",
+    "image": "/images/Bass.png",
+    "level": 43,
+    "xp": 130,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw bass",
+        "image": "/images/Raw_bass.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 14.0,
+      "sell": 171.0,
+      "margin": 157.0,
+      "margin_percent": 1.21
+    },
+    "members_only": true
+  },
+  {
+    "name": "Moonlight mead",
+    "image": "/images/Moonlight_mead.png",
+    "level": 44,
+    "xp": 480,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bucket of water",
+        "image": "/images/Bucket_of_water.png",
+        "quantity": 2
+      },
+      {
+        "name": "Barley malt",
+        "image": "/images/Barley_malt.png",
+        "quantity": 2
+      },
+      {
+        "name": "Mushroom",
+        "image": "/images/Mushroom.png",
+        "quantity": 2
+      },
+      {
+        "name": "Ale yeast",
+        "image": "/images/Ale_yeast.png",
+        "quantity": 2
+      },
+      {
+        "name": "Beer glass",
+        "image": "/images/Beer_glass.png",
+        "quantity": 2
+      }
+    ],
+    "costs": {
+      "buy": 5254.0,
+      "sell": 880.0,
+      "margin": null,
+      "margin_percent": -9.11
+    },
+    "members_only": true
+  },
+  {
+    "name": "Meat pizza\n(cooked meat)",
+    "image": "/images/Meat_pizza.png",
+    "level": 45,
+    "xp": 26,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Plain pizza",
+        "image": "/images/Plain_pizza.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooked meat",
+        "image": "/images/Cooked_meat.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 838.0,
+      "sell": 320.0,
+      "margin": null,
+      "margin_percent": -19.92
+    },
+    "members_only": true
+  },
+  {
+    "name": "Meat pizza\n(cooked chicken)",
+    "image": "/images/Meat_pizza.png",
+    "level": 45,
+    "xp": 26,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Plain pizza",
+        "image": "/images/Plain_pizza.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooked chicken",
+        "image": "/images/Cooked_chicken.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 808.0,
+      "sell": 320.0,
+      "margin": null,
+      "margin_percent": -18.77
+    },
+    "members_only": true
+  },
+  {
+    "name": "Swordfish",
+    "image": "/images/Swordfish.png",
+    "level": 45,
+    "xp": 140,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw swordfish",
+        "image": "/images/Raw_swordfish.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 78.0,
+      "sell": 163.0,
+      "margin": 85.0,
+      "margin_percent": 0.61
+    },
+    "members_only": true
+  },
+  {
+    "name": "Meat pizza\n(from scratch & using chicken)",
+    "image": "/images/Meat_pizza.png",
+    "level": 45,
+    "xp": 169,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooked chicken",
+        "image": "/images/Cooked_chicken.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 333.0,
+      "sell": 320.0,
+      "margin": null,
+      "margin_percent": -0.08
+    },
+    "members_only": true
+  },
+  {
+    "name": "Meat pizza\n(pre-made base & using cooked meat)",
+    "image": "/images/Meat_pizza.png",
+    "level": 45,
+    "xp": 169,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pizza base",
+        "image": "/images/Pizza_base.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooked meat",
+        "image": "/images/Cooked_meat.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 426.0,
+      "sell": 320.0,
+      "margin": null,
+      "margin_percent": -0.63
+    },
+    "members_only": true
+  },
+  {
+    "name": "Meat pizza\n(pre-made base & using chicken)",
+    "image": "/images/Meat_pizza.png",
+    "level": 45,
+    "xp": 169,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pizza base",
+        "image": "/images/Pizza_base.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooked chicken",
+        "image": "/images/Cooked_chicken.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 396.0,
+      "sell": 320.0,
+      "margin": null,
+      "margin_percent": -0.45
+    },
+    "members_only": true
+  },
+  {
+    "name": "Meat pizza\n(from scratch & using cooked meat)",
+    "image": "/images/Meat_pizza.png",
+    "level": 45,
+    "xp": 169,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooked meat",
+        "image": "/images/Cooked_meat.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 363.0,
+      "sell": 320.0,
+      "margin": null,
+      "margin_percent": -0.25
+    },
+    "members_only": true
+  },
+  {
+    "name": "Catfish",
+    "image": "/images/Catfish.png",
+    "level": 46,
+    "xp": 43,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw catfish",
+        "image": "/images/Raw_catfish.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 0.0,
+      "sell": 0.0,
+      "margin": 0.0,
+      "margin_percent": 0.0
+    },
+    "members_only": true
+  },
+  {
+    "name": "Fried mushrooms",
+    "image": "/images/Fried_mushrooms.png",
+    "level": 46,
+    "xp": 60,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Sliced mushrooms",
+        "image": "/images/Sliced_mushrooms.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 112.0,
+      "sell": 56.0,
+      "margin": null,
+      "margin_percent": -0.93
+    },
+    "members_only": true
+  },
+  {
+    "name": "Potato with cheese",
+    "image": "/images/Potato_with_cheese.png",
+    "level": 47,
+    "xp": 40,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Potato with butter",
+        "image": "/images/Potato_with_butter.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 420.0,
+      "sell": 271.0,
+      "margin": null,
+      "margin_percent": -3.72
+    },
+    "members_only": true
+  },
+  {
+    "name": "Fish pie\n(pre-made pie & using Bake Pie spell)",
+    "image": "/images/Fish_pie.png",
+    "level": 47,
+    "xp": 164,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Raw fish pie",
+        "image": "/images/Raw_fish_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1452.0,
+      "sell": 713.0,
+      "margin": null,
+      "margin_percent": -4.51
+    },
+    "members_only": true
+  },
+  {
+    "name": "Fish pie\n(from scratch & using Bake Pie spell)",
+    "image": "/images/Fish_pie.png",
+    "level": 47,
+    "xp": 164,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Trout",
+        "image": "/images/Trout.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cod",
+        "image": "/images/Cod.png",
+        "quantity": 1
+      },
+      {
+        "name": "Potato",
+        "image": "/images/Potato.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 441.0,
+      "sell": 713.0,
+      "margin": 272.0,
+      "margin_percent": 1.66
+    },
+    "members_only": true
+  },
+  {
+    "name": "Fish pie\n(pre-made pie)",
+    "image": "/images/Fish_pie.png",
+    "level": 47,
+    "xp": 164,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw fish pie",
+        "image": "/images/Raw_fish_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1358.0,
+      "sell": 713.0,
+      "margin": null,
+      "margin_percent": -3.93
+    },
+    "members_only": true
+  },
+  {
+    "name": "Fish pie\n(from scratch)",
+    "image": "/images/Fish_pie.png",
+    "level": 47,
+    "xp": 164,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Trout",
+        "image": "/images/Trout.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cod",
+        "image": "/images/Cod.png",
+        "quantity": 1
+      },
+      {
+        "name": "Potato",
+        "image": "/images/Potato.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 347.0,
+      "sell": 713.0,
+      "margin": 366.0,
+      "margin_percent": 2.23
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cheese",
+    "image": "/images/Cheese.png",
+    "level": 48,
+    "xp": 64,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bucket of milk",
+        "image": "/images/Bucket_of_milk.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 57.0,
+      "sell": 53.0,
+      "margin": null,
+      "margin_percent": -0.06
+    },
+    "members_only": true
+  },
+  {
+    "name": "Axeman's folly",
+    "image": "/images/Axeman%27s_folly.png",
+    "level": 49,
+    "xp": 413,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bucket of water",
+        "image": "/images/Bucket_of_water.png",
+        "quantity": 2
+      },
+      {
+        "name": "Barley malt",
+        "image": "/images/Barley_malt.png",
+        "quantity": 2
+      },
+      {
+        "name": "Oak roots",
+        "image": "/images/Oak_roots.png",
+        "quantity": 2
+      },
+      {
+        "name": "Ale yeast",
+        "image": "/images/Ale_yeast.png",
+        "quantity": 2
+      },
+      {
+        "name": "Beer glass",
+        "image": "/images/Beer_glass.png",
+        "quantity": 2
+      }
+    ],
+    "costs": {
+      "buy": 5120.0,
+      "sell": 15088.0,
+      "margin": 9968.0,
+      "margin_percent": 24.14
+    },
+    "members_only": true
+  },
+  {
+    "name": "Chocolate cake\n(starting with pre-made cake)",
+    "image": "/images/Chocolate_cake.png",
+    "level": 50,
+    "xp": 30,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Cake",
+        "image": "/images/Cake.png",
+        "quantity": 1
+      },
+      {
+        "name": "Chocolate bar",
+        "image": "/images/Chocolate_bar.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 189.0,
+      "sell": 191.0,
+      "margin": 2.0,
+      "margin_percent": 0.07
+    },
+    "members_only": true
+  },
+  {
+    "name": "Chocolate cake\n(from scratch)",
+    "image": "/images/Chocolate_cake.png",
+    "level": 50,
+    "xp": 210,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Cake tin",
+        "image": "/images/Cake_tin.png",
+        "quantity": 1
+      },
+      {
+        "name": "Egg",
+        "image": "/images/Egg.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Bucket of milk",
+        "image": "/images/Bucket_of_milk.png",
+        "quantity": 1
+      },
+      {
+        "name": "Chocolate bar",
+        "image": "/images/Chocolate_bar.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 347.0,
+      "sell": 191.0,
+      "margin": null,
+      "margin_percent": -0.74
+    },
+    "members_only": true
+  },
+  {
+    "name": "Egg potato",
+    "image": "/images/Egg_potato.png",
+    "level": 51,
+    "xp": 45,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Egg and tomato",
+        "image": "/images/Egg_and_tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Potato with butter",
+        "image": "/images/Potato_with_butter.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 536.0,
+      "sell": 272.0,
+      "margin": null,
+      "margin_percent": -5.87
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked kyatt",
+    "image": "/images/Cooked_kyatt.png",
+    "level": 51,
+    "xp": 143,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw kyatt",
+        "image": "/images/Raw_kyatt.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 151.0,
+      "sell": 250.0,
+      "margin": 99.0,
+      "margin_percent": 0.69
+    },
+    "members_only": true
+  },
+  {
+    "name": "Botanical pie\n(pre-made pie)",
+    "image": "/images/Botanical_pie.png",
+    "level": 52,
+    "xp": 180,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Uncooked botanical pie",
+        "image": "/images/Uncooked_botanical_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 2368.0,
+      "sell": 1997.0,
+      "margin": null,
+      "margin_percent": -2.06
+    },
+    "members_only": true
+  },
+  {
+    "name": "Botanical pie\n(pre-made pie & using Bake Pie spell)",
+    "image": "/images/Botanical_pie.png",
+    "level": 52,
+    "xp": 180,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Uncooked botanical pie",
+        "image": "/images/Uncooked_botanical_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 2462.0,
+      "sell": 1997.0,
+      "margin": null,
+      "margin_percent": -2.58
+    },
+    "members_only": true
+  },
+  {
+    "name": "Botanical pie\n(from scratch)",
+    "image": "/images/Botanical_pie.png",
+    "level": 52,
+    "xp": 180,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Golovanova fruit top",
+        "image": "/images/Golovanova_fruit_top.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1164.0,
+      "sell": 1997.0,
+      "margin": 833.0,
+      "margin_percent": 4.63
+    },
+    "members_only": true
+  },
+  {
+    "name": "Botanical pie\n(from scratch & using Bake Pie spell)",
+    "image": "/images/Botanical_pie.png",
+    "level": 52,
+    "xp": 180,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Golovanova fruit top",
+        "image": "/images/Golovanova_fruit_top.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1258.0,
+      "sell": 1997.0,
+      "margin": 739.0,
+      "margin_percent": 4.11
+    },
+    "members_only": true
+  },
+  {
+    "name": "Lava eel",
+    "image": "/images/Lava_eel.png",
+    "level": 53,
+    "xp": 30,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw lava eel",
+        "image": "/images/Raw_lava_eel.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 0.0,
+      "sell": 0.0,
+      "margin": 0.0,
+      "margin_percent": 0.0
+    },
+    "members_only": true
+  },
+  {
+    "name": "Chef's delight",
+    "image": "/images/Chef%27s_delight.png",
+    "level": 54,
+    "xp": 446,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bucket of water",
+        "image": "/images/Bucket_of_water.png",
+        "quantity": 2
+      },
+      {
+        "name": "Barley malt",
+        "image": "/images/Barley_malt.png",
+        "quantity": 2
+      },
+      {
+        "name": "Chocolate dust",
+        "image": "/images/Chocolate_dust.png",
+        "quantity": 2
+      },
+      {
+        "name": "Ale yeast",
+        "image": "/images/Ale_yeast.png",
+        "quantity": 2
+      },
+      {
+        "name": "Beer glass",
+        "image": "/images/Beer_glass.png",
+        "quantity": 2
+      }
+    ],
+    "costs": {
+      "buy": 4654.0,
+      "sell": 3296.0,
+      "margin": null,
+      "margin_percent": -3.04
+    },
+    "members_only": true
+  },
+  {
+    "name": "Anchovy pizza\n(pre-made plain pizza)",
+    "image": "/images/Anchovy_pizza.png",
+    "level": 55,
+    "xp": 39,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Plain pizza",
+        "image": "/images/Plain_pizza.png",
+        "quantity": 1
+      },
+      {
+        "name": "Anchovies",
+        "image": "/images/Anchovies.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 748.0,
+      "sell": 704.0,
+      "margin": null,
+      "margin_percent": -1.13
+    },
+    "members_only": true
+  },
+  {
+    "name": "Anchovy pizza\n(pre-made base)",
+    "image": "/images/Anchovy_pizza.png",
+    "level": 55,
+    "xp": 182,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pizza base",
+        "image": "/images/Pizza_base.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      },
+      {
+        "name": "Anchovies",
+        "image": "/images/Anchovies.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 336.0,
+      "sell": 704.0,
+      "margin": 368.0,
+      "margin_percent": 2.02
+    },
+    "members_only": true
+  },
+  {
+    "name": "Anchovy pizza\n(from scratch)",
+    "image": "/images/Anchovy_pizza.png",
+    "level": 55,
+    "xp": 182,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Anchovies",
+        "image": "/images/Anchovies.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 273.0,
+      "sell": 704.0,
+      "margin": 431.0,
+      "margin_percent": 2.37
+    },
+    "members_only": true
+  },
+  {
+    "name": "Mushroom & onion",
+    "image": "/images/Mushroom_%26_onion.png",
+    "level": 57,
+    "xp": 120,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Fried mushrooms",
+        "image": "/images/Fried_mushrooms.png",
+        "quantity": 1
+      },
+      {
+        "name": "Fried onions",
+        "image": "/images/Fried_onions.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 85.0,
+      "sell": 310.0,
+      "margin": 225.0,
+      "margin_percent": 1.88
+    },
+    "members_only": true
+  },
+  {
+    "name": "Pitta bread",
+    "image": "/images/Pitta_bread.png",
+    "level": 58,
+    "xp": 40,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 159.0,
+      "sell": 74.0,
+      "margin": null,
+      "margin_percent": -2.12
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked pyre fox",
+    "image": "/images/Cooked_pyre_fox.png",
+    "level": 59,
+    "xp": 154,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw pyre fox",
+        "image": "/images/Raw_pyre_fox.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 171.0,
+      "sell": 476.0,
+      "margin": 305.0,
+      "margin_percent": 1.98
+    },
+    "members_only": true
+  },
+  {
+    "name": "Slayer's respite",
+    "image": "/images/Slayer%27s_respite.png",
+    "level": 59,
+    "xp": 479,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bucket of water",
+        "image": "/images/Bucket_of_water.png",
+        "quantity": 2
+      },
+      {
+        "name": "Barley malt",
+        "image": "/images/Barley_malt.png",
+        "quantity": 2
+      },
+      {
+        "name": "Wildblood hops",
+        "image": "/images/Wildblood_hops.png",
+        "quantity": 2
+      },
+      {
+        "name": "Ale yeast",
+        "image": "/images/Ale_yeast.png",
+        "quantity": 2
+      },
+      {
+        "name": "Beer glass",
+        "image": "/images/Beer_glass.png",
+        "quantity": 2
+      }
+    ],
+    "costs": {
+      "buy": 4438.0,
+      "sell": 288.0,
+      "margin": null,
+      "margin_percent": -8.66
+    },
+    "members_only": true
+  },
+  {
+    "name": "Mushroom pie\n(from scratch & using Bake Pie spell)",
+    "image": "/images/Mushroom_pie.png",
+    "level": 60,
+    "xp": 200,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Sulliuscep cap",
+        "image": "/images/Sulliuscep_cap.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 5270.0,
+      "sell": 7614.0,
+      "margin": 2344.0,
+      "margin_percent": 11.72
+    },
+    "members_only": true
+  },
+  {
+    "name": "Mushroom pie\n(pre-made pie & using Bake Pie spell)",
+    "image": "/images/Mushroom_pie.png",
+    "level": 60,
+    "xp": 200,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Uncooked mushroom pie",
+        "image": "/images/Uncooked_mushroom_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 6883.0,
+      "sell": 7614.0,
+      "margin": 731.0,
+      "margin_percent": 3.66
+    },
+    "members_only": true
+  },
+  {
+    "name": "Mushroom pie\n(pre-made pie)",
+    "image": "/images/Mushroom_pie.png",
+    "level": 60,
+    "xp": 200,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Uncooked mushroom pie",
+        "image": "/images/Uncooked_mushroom_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 6789.0,
+      "sell": 7614.0,
+      "margin": 825.0,
+      "margin_percent": 4.13
+    },
+    "members_only": true
+  },
+  {
+    "name": "Mushroom pie\n(from scratch)",
+    "image": "/images/Mushroom_pie.png",
+    "level": 60,
+    "xp": 200,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Sulliuscep cap",
+        "image": "/images/Sulliuscep_cap.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 5176.0,
+      "sell": 7614.0,
+      "margin": 2438.0,
+      "margin_percent": 12.19
+    },
+    "members_only": true
+  },
+  {
+    "name": "Curry",
+    "image": "/images/Curry.png",
+    "level": 60,
+    "xp": 280,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Bowl of water",
+        "image": "/images/Bowl_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Potato",
+        "image": "/images/Potato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooked meat",
+        "image": "/images/Cooked_meat.png",
+        "quantity": 1
+      },
+      {
+        "name": "Curry leaf",
+        "image": "/images/Curry_leaf.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 364.0,
+      "sell": 435.0,
+      "margin": 71.0,
+      "margin_percent": 0.25
+    },
+    "members_only": true
+  },
+  {
+    "name": "Monkfish",
+    "image": "/images/Monkfish.png",
+    "level": 62,
+    "xp": 150,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw monkfish",
+        "image": "/images/Raw_monkfish.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 308.0,
+      "sell": 525.0,
+      "margin": 217.0,
+      "margin_percent": 1.45
+    },
+    "members_only": true
+  },
+  {
+    "name": "Mushroom potato",
+    "image": "/images/Mushroom_potato.png",
+    "level": 64,
+    "xp": 55,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Mushroom & onion",
+        "image": "/images/Mushroom_%26_onion.png",
+        "quantity": 1
+      },
+      {
+        "name": "Potato with butter",
+        "image": "/images/Potato_with_butter.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 677.0,
+      "sell": 772.0,
+      "margin": 95.0,
+      "margin_percent": 1.73
+    },
+    "members_only": true
+  },
+  {
+    "name": "Pineapple pizza\n(pineapple rings)",
+    "image": "/images/Pineapple_pizza.png",
+    "level": 65,
+    "xp": 45,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Plain pizza",
+        "image": "/images/Plain_pizza.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pineapple ring",
+        "image": "/images/Pineapple_ring.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 798.0,
+      "sell": 1027.0,
+      "margin": 229.0,
+      "margin_percent": 5.09
+    },
+    "members_only": true
+  },
+  {
+    "name": "Pineapple pizza\n(pineapple chunks)",
+    "image": "/images/Pineapple_pizza.png",
+    "level": 65,
+    "xp": 45,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Plain pizza",
+        "image": "/images/Plain_pizza.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pineapple chunks",
+        "image": "/images/Pineapple_chunks.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 964.0,
+      "sell": 1027.0,
+      "margin": 63.0,
+      "margin_percent": 1.4
+    },
+    "members_only": true
+  },
+  {
+    "name": "Pineapple pizza\n(pre-made base)",
+    "image": "/images/Pineapple_pizza.png",
+    "level": 65,
+    "xp": 188,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pizza base",
+        "image": "/images/Pizza_base.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pineapple chunks",
+        "image": "/images/Pineapple_chunks.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 552.0,
+      "sell": 1027.0,
+      "margin": 475.0,
+      "margin_percent": 2.53
+    },
+    "members_only": true
+  },
+  {
+    "name": "Pineapple pizza\n(from scratch w/ chunks)",
+    "image": "/images/Pineapple_pizza.png",
+    "level": 65,
+    "xp": 188,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pineapple chunks",
+        "image": "/images/Pineapple_chunks.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 489.0,
+      "sell": 1027.0,
+      "margin": 538.0,
+      "margin_percent": 2.86
+    },
+    "members_only": true
+  },
+  {
+    "name": "Pineapple pizza\n(from scratch w/ rings)",
+    "image": "/images/Pineapple_pizza.png",
+    "level": 65,
+    "xp": 188,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tomato",
+        "image": "/images/Tomato.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cheese",
+        "image": "/images/Cheese.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pineapple ring",
+        "image": "/images/Pineapple_ring.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 323.0,
+      "sell": 1027.0,
+      "margin": 704.0,
+      "margin_percent": 3.74
+    },
+    "members_only": true
+  },
+  {
+    "name": "Wine of zamorak",
+    "image": "/images/Wine_of_zamorak.png",
+    "level": 65,
+    "xp": 200,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Zamorak's grapes",
+        "image": "/images/Zamorak%27s_grapes.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1895.0,
+      "sell": 809.0,
+      "margin": null,
+      "margin_percent": -5.43
+    },
+    "members_only": true
+  },
+  {
+    "name": "Tuna potato",
+    "image": "/images/Tuna_potato.png",
+    "level": 68,
+    "xp": 10,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Tuna and corn",
+        "image": "/images/Tuna_and_corn.png",
+        "quantity": 1
+      },
+      {
+        "name": "Potato with butter",
+        "image": "/images/Potato_with_butter.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1243.0,
+      "sell": 1747.0,
+      "margin": 504.0,
+      "margin_percent": 50.4
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked sunlight antelope",
+    "image": "/images/Cooked_sunlight_antelope.png",
+    "level": 68,
+    "xp": 175,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw sunlight antelope",
+        "image": "/images/Raw_sunlight_antelope.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 455.0,
+      "sell": 798.0,
+      "margin": 343.0,
+      "margin_percent": 1.96
+    },
+    "members_only": true
+  },
+  {
+    "name": "Admiral pie\n(from scratch & using Bake Pie spell)",
+    "image": "/images/Admiral_pie.png",
+    "level": 70,
+    "xp": 210,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Salmon",
+        "image": "/images/Salmon.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tuna",
+        "image": "/images/Tuna.png",
+        "quantity": 1
+      },
+      {
+        "name": "Potato",
+        "image": "/images/Potato.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 565.0,
+      "sell": 167.0,
+      "margin": null,
+      "margin_percent": -1.9
+    },
+    "members_only": true
+  },
+  {
+    "name": "Admiral pie\n(pre-made pie)",
+    "image": "/images/Admiral_pie.png",
+    "level": 70,
+    "xp": 210,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw admiral pie",
+        "image": "/images/Raw_admiral_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1352.0,
+      "sell": 167.0,
+      "margin": null,
+      "margin_percent": -5.64
+    },
+    "members_only": true
+  },
+  {
+    "name": "Admiral pie\n(pre-made pie & using Bake Pie spell)",
+    "image": "/images/Admiral_pie.png",
+    "level": 70,
+    "xp": 210,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Raw admiral pie",
+        "image": "/images/Raw_admiral_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1446.0,
+      "sell": 167.0,
+      "margin": null,
+      "margin_percent": -6.09
+    },
+    "members_only": true
+  },
+  {
+    "name": "Admiral pie\n(from scratch)",
+    "image": "/images/Admiral_pie.png",
+    "level": 70,
+    "xp": 210,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Salmon",
+        "image": "/images/Salmon.png",
+        "quantity": 1
+      },
+      {
+        "name": "Tuna",
+        "image": "/images/Tuna.png",
+        "quantity": 1
+      },
+      {
+        "name": "Potato",
+        "image": "/images/Potato.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 471.0,
+      "sell": 167.0,
+      "margin": null,
+      "margin_percent": -1.45
+    },
+    "members_only": true
+  },
+  {
+    "name": "Sacred eel",
+    "image": "/images/Sacred_eel.png",
+    "level": 72,
+    "xp": null,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Sacred eel",
+        "image": "/images/Sacred_eel.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 0.0,
+      "sell": 0.0,
+      "margin": 0.0,
+      "margin_percent": 0.0
+    },
+    "members_only": true
+  },
+  {
+    "name": "Dragonfruit pie\n(pre-made pie)",
+    "image": "/images/Dragonfruit_pie.png",
+    "level": 73,
+    "xp": 220,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Uncooked dragonfruit pie",
+        "image": "/images/Uncooked_dragonfruit_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 2156.0,
+      "sell": 518.0,
+      "margin": null,
+      "margin_percent": -7.45
+    },
+    "members_only": true
+  },
+  {
+    "name": "Dragonfruit pie\n(from scratch)",
+    "image": "/images/Dragonfruit_pie.png",
+    "level": 73,
+    "xp": 220,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Dragonfruit",
+        "image": "/images/Dragonfruit.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1466.0,
+      "sell": 518.0,
+      "margin": null,
+      "margin_percent": -4.31
+    },
+    "members_only": true
+  },
+  {
+    "name": "Dragonfruit pie\n(pre-made pie & using Bake Pie spell)",
+    "image": "/images/Dragonfruit_pie.png",
+    "level": 73,
+    "xp": 220,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Uncooked dragonfruit pie",
+        "image": "/images/Uncooked_dragonfruit_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 2250.0,
+      "sell": 518.0,
+      "margin": null,
+      "margin_percent": -7.87
+    },
+    "members_only": true
+  },
+  {
+    "name": "Dragonfruit pie\n(from scratch & using Bake Pie spell)",
+    "image": "/images/Dragonfruit_pie.png",
+    "level": 73,
+    "xp": 220,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Dragonfruit",
+        "image": "/images/Dragonfruit.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1560.0,
+      "sell": 518.0,
+      "margin": null,
+      "margin_percent": -4.74
+    },
+    "members_only": true
+  },
+  {
+    "name": "Shark",
+    "image": "/images/Shark.png",
+    "level": 80,
+    "xp": 210,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw shark",
+        "image": "/images/Raw_shark.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 548.0,
+      "sell": 768.0,
+      "margin": 220.0,
+      "margin_percent": 1.05
+    },
+    "members_only": true
+  },
+  {
+    "name": "Sea turtle",
+    "image": "/images/Sea_turtle.png",
+    "level": 82,
+    "xp": null,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw sea turtle",
+        "image": "/images/Raw_sea_turtle.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 658.0,
+      "sell": 987.0,
+      "margin": 329.0,
+      "margin_percent": 1.56
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked dashing kebbit",
+    "image": "/images/Cooked_dashing_kebbit.png",
+    "level": 82,
+    "xp": 215,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw dashing kebbit",
+        "image": "/images/Raw_dashing_kebbit.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1458.0,
+      "sell": 2049.0,
+      "margin": 591.0,
+      "margin_percent": 2.75
+    },
+    "members_only": true
+  },
+  {
+    "name": "Anglerfish",
+    "image": "/images/Anglerfish.png",
+    "level": 84,
+    "xp": 230,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw anglerfish",
+        "image": "/images/Raw_anglerfish.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1263.0,
+      "sell": 1517.0,
+      "margin": 254.0,
+      "margin_percent": 1.1
+    },
+    "members_only": true
+  },
+  {
+    "name": "Wild pie\n(pre-made pie)",
+    "image": "/images/Wild_pie.png",
+    "level": 85,
+    "xp": 240,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw wild pie",
+        "image": "/images/Raw_wild_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 4974.0,
+      "sell": 591.0,
+      "margin": null,
+      "margin_percent": -18.26
+    },
+    "members_only": true
+  },
+  {
+    "name": "Wild pie\n(pre-made pie & using Bake Pie spell)",
+    "image": "/images/Wild_pie.png",
+    "level": 85,
+    "xp": 240,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Raw wild pie",
+        "image": "/images/Raw_wild_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 5068.0,
+      "sell": 591.0,
+      "margin": null,
+      "margin_percent": -18.65
+    },
+    "members_only": true
+  },
+  {
+    "name": "Wild pie\n(from scratch & using Bake Pie spell)",
+    "image": "/images/Wild_pie.png",
+    "level": 85,
+    "xp": 240,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Raw bear meat",
+        "image": "/images/Raw_bear_meat.png",
+        "quantity": 1
+      },
+      {
+        "name": "Raw chompy",
+        "image": "/images/Raw_chompy.png",
+        "quantity": 1
+      },
+      {
+        "name": "Raw rabbit",
+        "image": "/images/Raw_rabbit.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 2934.0,
+      "sell": 591.0,
+      "margin": null,
+      "margin_percent": -9.76
+    },
+    "members_only": true
+  },
+  {
+    "name": "Wild pie\n(from scratch)",
+    "image": "/images/Wild_pie.png",
+    "level": 85,
+    "xp": 240,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Raw bear meat",
+        "image": "/images/Raw_bear_meat.png",
+        "quantity": 1
+      },
+      {
+        "name": "Raw chompy",
+        "image": "/images/Raw_chompy.png",
+        "quantity": 1
+      },
+      {
+        "name": "Raw rabbit",
+        "image": "/images/Raw_rabbit.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 2840.0,
+      "sell": 591.0,
+      "margin": null,
+      "margin_percent": -9.37
+    },
+    "members_only": true
+  },
+  {
+    "name": "Dark crab",
+    "image": "/images/Dark_crab.png",
+    "level": 90,
+    "xp": 215,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw dark crab",
+        "image": "/images/Raw_dark_crab.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1185.0,
+      "sell": 1469.0,
+      "margin": 284.0,
+      "margin_percent": 1.32
+    },
+    "members_only": true
+  },
+  {
+    "name": "Manta ray",
+    "image": "/images/Manta_ray.png",
+    "level": 91,
+    "xp": null,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw manta ray",
+        "image": "/images/Raw_manta_ray.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1825.0,
+      "sell": 2118.0,
+      "margin": 293.0,
+      "margin_percent": 1.36
+    },
+    "members_only": true
+  },
+  {
+    "name": "Cooked moonlight antelope",
+    "image": "/images/Cooked_moonlight_antelope.png",
+    "level": 92,
+    "xp": 220,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw moonlight antelope",
+        "image": "/images/Raw_moonlight_antelope.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 2177.0,
+      "sell": 2751.0,
+      "margin": 574.0,
+      "margin_percent": 2.61
+    },
+    "members_only": true
+  },
+  {
+    "name": "Summer pie\n(from scratch & using Bake Pie spell)",
+    "image": "/images/Summer_pie.png",
+    "level": 95,
+    "xp": 260,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Strawberry",
+        "image": "/images/Strawberry.png",
+        "quantity": 1
+      },
+      {
+        "name": "Watermelon",
+        "image": "/images/Watermelon.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooking apple",
+        "image": "/images/Cooking_apple.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 432.0,
+      "sell": 679.0,
+      "margin": 247.0,
+      "margin_percent": 0.95
+    },
+    "members_only": true
+  },
+  {
+    "name": "Summer pie\n(pre-made pie)",
+    "image": "/images/Summer_pie.png",
+    "level": 95,
+    "xp": 260,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Raw summer pie",
+        "image": "/images/Raw_summer_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1171.0,
+      "sell": 679.0,
+      "margin": null,
+      "margin_percent": -1.89
+    },
+    "members_only": true
+  },
+  {
+    "name": "Summer pie\n(from scratch)",
+    "image": "/images/Summer_pie.png",
+    "level": 95,
+    "xp": 260,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Pot of flour",
+        "image": "/images/Pot_of_flour.png",
+        "quantity": 1
+      },
+      {
+        "name": "Jug of water",
+        "image": "/images/Jug_of_water.png",
+        "quantity": 1
+      },
+      {
+        "name": "Pie dish",
+        "image": "/images/Pie_dish.png",
+        "quantity": 1
+      },
+      {
+        "name": "Strawberry",
+        "image": "/images/Strawberry.png",
+        "quantity": 1
+      },
+      {
+        "name": "Watermelon",
+        "image": "/images/Watermelon.png",
+        "quantity": 1
+      },
+      {
+        "name": "Cooking apple",
+        "image": "/images/Cooking_apple.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 338.0,
+      "sell": 679.0,
+      "margin": 341.0,
+      "margin_percent": 1.31
+    },
+    "members_only": true
+  },
+  {
+    "name": "Summer pie\n(pre-made pie & using Bake Pie spell)",
+    "image": "/images/Summer_pie.png",
+    "level": 95,
+    "xp": 260,
+    "quantity": 1,
+    "ingredients": [
+      {
+        "name": "Astral rune",
+        "image": "/images/Astral_rune.png",
+        "quantity": 1
+      },
+      {
+        "name": "Raw summer pie",
+        "image": "/images/Raw_summer_pie.png",
+        "quantity": 1
+      }
+    ],
+    "costs": {
+      "buy": 1265.0,
+      "sell": 679.0,
+      "margin": null,
+      "margin_percent": -2.25
+    },
+    "members_only": true
+  }
+]
