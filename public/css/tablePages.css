@@ -1,0 +1,63 @@
+/* tablePages.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+img {
+    max-height: 40px;
+    max-width: 40px;
+    object-fit: contain;
+}
+
+.ingreds div {
+    margin: 10px 0;
+}
+
+.toggle-btn {
+padding: 6px 12px;
+margin-right: 8px;
+cursor: pointer;
+border: 1px solid #ccc;
+background: white;
+}
+.toggle-btn.active {
+background: #007bff;
+color: white;
+border-color: #0056b3;
+}

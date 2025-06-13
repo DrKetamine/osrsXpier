@@ -32,11 +32,8 @@ class ImportActions extends Command
                     'image' => $data['image'] ?? null,
                     'level' => $data['level'] ?? null,
                     'xp' => $data['xp'] ?? null,
-                    'quantity' => $data['quantity'] ?? null,
                     'buy' => $data['costs']['buy'] ?? null,
                     'sell' => $data['costs']['sell'] ?? null,
-                    'margin' => $data['costs']['margin'] ?? null,
-                    'margin_percent' => $data['costs']['margin_percent'] ?? null,
                     'members_only' => $data['members_only'] ?? false,
                 ]
             );

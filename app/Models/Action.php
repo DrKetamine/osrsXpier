@@ -7,8 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class Action extends Model
 {
     protected $fillable = [
-        'name', 'image', 'level', 'xp', 'quantity',
-        'buy', 'sell', 'margin', 'margin_percent', 'members_only',
+        'name', 'image', 'level', 'xp',
+        'buy', 'sell', 'members_only',
     ];
 
     public function ingredients()

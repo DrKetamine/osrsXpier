@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/actions', [ActionController::class, 'index']);
+Route::get('/actions', [ActionController::class, 'index'])->name('actions.index');
