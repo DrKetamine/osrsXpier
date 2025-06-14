@@ -9,9 +9,26 @@ use Illuminate\Http\Request;
 class ActionController extends Controller {
     public function index(Request $request){
         $xpNeeded = null;
+        $showAll = $request->has('show_all');
+        $sort = $request->input('sort') ?? '';
+        $direction = $request->input('direction') ?? 'asc';
         $query = Action::with('ingredients');
 
-        // LEVEL-based input
+        if ($showAll) {
+            $actions = $query->get()->map(function ($action) {
+                $action->margin = $action->sell - $action->buy;
+                $action->margin_percent = $action->buy > 0 ? (($action->sell - $action->buy) / $action->buy) * 100 : 0;
+                $action->quantity_needed = null;
+
+                $action->first_ingredient = optional($action->ingredients->first())->name ?? '';
+                return $action;
+            });
+
+            // Pass $sort, $direction, $xpNeeded for consistency
+            return view('actions.index', compact('actions', 'showAll', 'sort', 'direction'))->with('xpNeeded', null);
+        }
+
+        // Level-based input
         if ($request->filled('current_level') && $request->filled('goal_level')) {
             $currentLevel = (int) $request->input('current_level');
             $goalLevel = (int) $request->input('goal_level');
@@ -29,26 +46,60 @@ class ActionController extends Controller {
             $xpNeeded = max(0, $goalXp - $currentXp);
         }
 
-        $actions = Action::with('ingredients')->get()->map(function ($action) use ($xpNeeded) {
-            if ($xpNeeded !== null && $action->xp > 0) {
-                $action->times_needed = ceil($xpNeeded / $action->xp);
-            } else {
-                $action->times_needed = null;
-            }
+        // Sorting
+        $validDbColumns = ['name', 'level', 'xp', 'buy', 'sell', 'members_only'];
+        $sort = $request->input('sort');
+        $direction = $request->input('direction');
+
+        if ($sort && in_array($sort, $validDbColumns)) {
+            $query->orderBy($sort, $direction);
+        }
+
+        if ($request->has('f2p_only')) {
+            $query->where('members_only', false);
+        }
+
+        if ($request->has('only_profitable')) {
+            $query->whereRaw('sell - buy > 0');
+        }
+
+        $actions = $query->with('ingredients')->get()->map(function ($action) use ($xpNeeded) {
+            $action->margin = $action->sell - $action->buy;
+            $action->margin_percent = $action->buy > 0 ? (($action->sell - $action->buy) / $action->buy) * 100 : 0;
+            $action->quantity_needed = ($xpNeeded && $action->xp > 0) ? ceil($xpNeeded / $action->xp) : null;
+
+            $action->first_ingredient = optional($action->ingredients->first())->name ?? '';
+
             return $action;
         });
 
-        // Sorting
-        $allowedSorts = ['name', 'level', 'xp', 'buy', 'sell']; // whatever columns you want sortable
-        $sort = $request->input('sort');
-        $direction = $request->input('direction') === 'desc' ? 'desc' : 'asc';
-
-        if (in_array($sort, $allowedSorts)) {
-            $query = $query->orderBy($sort, $direction);
+        if ($sort === 'first_ingredient') {
+            $actions = $actions->sortBy(function ($a) {
+                return $a->first_ingredient;
+            }, SORT_REGULAR, $direction === 'desc');
+        } else {
+            $actions = $actions->values();
         }
 
-        $actions = $query->get();
+        if ($sort === 'quantity_needed') {
+            $actions = $actions->sortBy(function ($a) {
+                return $a->quantity_needed ?? 0;
+            }, SORT_REGULAR, $direction === 'desc')->values();
+        } elseif ($sort === 'first_ingredient') {
+            $actions = $actions->sortBy(function ($a) {
+                return $a->first_ingredient;
+            }, SORT_REGULAR, $direction === 'desc')->values();
+        } else {
+            $actions = $actions->values();
+        }
 
-        return view('actions.index', compact('actions', 'xpNeeded', 'sort', 'direction'));
+        // Now apply collection sort if needed
+        if (!in_array($sort, $validDbColumns) && in_array($direction, ['asc', 'desc'])) {
+            $actions = $direction === 'asc'
+                ? $actions->sortBy($sort)->values()
+                : $actions->sortByDesc($sort)->values();
+        }
+
+        return view('actions.index', compact('actions', 'xpNeeded', 'sort', 'direction'))->with('showAll', false);
     }
 }

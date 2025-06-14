@@ -50,4 +50,68 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize
     setMode('level');
+    const table = document.querySelector('#actions-table');
+    const toggleBtn = document.getElementById('toggle-rows-btn');
+
+    const allRows = Array.from(table.querySelectorAll('tbody tr'));
+    const totalRows = allRows.length;
+    let visibleCount = 15;
+
+    function updateVisibility() {
+        allRows.forEach((row, index) => {
+            row.style.display = index < visibleCount ? 'table-row' : 'none';
+        });
+    }
+
+    toggleBtn.addEventListener('click', () => {
+        if (visibleCount < totalRows) {
+            visibleCount = Math.min(visibleCount + 15, totalRows);
+            updateVisibility();
+            if (visibleCount === totalRows) {
+                toggleBtn.textContent = 'Show less';
+            }
+        } else {
+            visibleCount = 15;
+            updateVisibility();
+            toggleBtn.textContent = 'Show more';
+        }
+    });
+
+    updateVisibility();
+
+    const showFiltersBtn = document.getElementById('show-filters-btn');
+    const formWrapper = document.querySelector('.formWrapper');
+    const contentWrap = document.querySelector('.contentWrap');
+
+    if (showFiltersBtn) {
+        showFiltersBtn.addEventListener('click', () => {
+            formWrapper.style.display = 'flex';
+            contentWrap.style.filter = 'blur(4px)';
+            showFiltersBtn.style.display = 'none';
+        });
+    }
+
+    const closeFiltersBtn = document.getElementById('close-filters-btn');
+
+    if (closeFiltersBtn) {
+        closeFiltersBtn.addEventListener('click', () => {
+            formWrapper.style.display = 'none';
+            contentWrap.style.filter = 'none';
+            if (showFiltersBtn) showFiltersBtn.style.display = 'inline-block';
+        });
+    }
+
+    if (showFiltersBtn) {
+        showFiltersBtn.addEventListener('click', () => {
+            formWrapper.style.display = 'flex';
+            document.body.classList.add('no-scroll');
+        });
+    }
+
+    if (closeFiltersBtn) {
+        closeFiltersBtn.addEventListener('click', () => {
+            formWrapper.style.display = 'none';
+            document.body.classList.remove('no-scroll');
+        });
+    }
 });
