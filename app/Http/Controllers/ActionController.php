@@ -26,23 +26,10 @@ class ActionController extends Controller {
 
         $xpNeeded = null;
 
-        // === Handle "Show All" mode ===
-        if ($showAll) {
-            $actions = Action::with('ingredients')->get()->map(function ($action) {
-                $action->margin = $action->sell - $action->buy;
-                $action->margin_percent = $action->buy > 0 ? (($action->sell - $action->buy) / $action->buy) * 100 : 0;
-                $action->quantity_needed = null;
-                $action->first_ingredient = optional($action->ingredients->first())->name ?? '';
-                return $action;
-            });
-
-            return view('actions.index', compact('actions', 'showAll', 'sort', 'direction'))->with('xpNeeded', null);
-        }
-
-        // === Build Query ===
+        // Build Query
         $query = Action::with('ingredients');
 
-        // Apply level-based filters (only if level input exists)
+        // Apply level-based filters
         if ($filterMode === 'can_do_now') {
             $query->where('level', '<=', $currentLevel ?? 0);
         } elseif ($filterMode === 'highlight_future') {
@@ -59,50 +46,62 @@ class ActionController extends Controller {
             $query->whereRaw('sell - buy > 0');
         }
 
-        // === XP Needed Calculation ===
-        if ($currentLevel !== null && $goalLevel !== null) {
-            $currentXp = Level::where('level', $currentLevel)->value('xp') ?? 0;
-            $goalXp = Level::where('level', $goalLevel)->value('xp') ?? 0;
+        // XP Needed Calculation
+        $xpCurrentLevel = null;
+        $xpGoalLevel = null;
+        
+        if ($currentXp !== null && $goalXp !== null) {
             $xpNeeded = max(0, $goalXp - $currentXp);
-        } elseif ($currentXp !== null && $goalXp !== null) {
-            $xpNeeded = max(0, $goalXp - $currentXp);
+        } elseif ($currentLevel !== null && $goalLevel !== null) {
+            $xpCurrent = Level::where('level', $currentLevel)->value('xp') ?? 0;
+            $xpGoal = Level::where('level', $goalLevel)->value('xp') ?? 0;
+            $xpNeeded = max(0, $xpGoal - $xpCurrent);
+        } else {
+            $xpNeeded = null;
         }
 
-        // === DB-Level Sorting ===
+        // DB Level Sorting
         $validDbColumns = ['name', 'level', 'xp', 'buy', 'sell', 'members_only'];
         if (in_array($sort, $validDbColumns)) {
             $query->orderBy($sort, $direction);
         }
 
-        // === Fetch & Transform Actions ===
-        $actions = $query->get()->map(function ($action) use ($xpNeeded) {
+        // Fetch & Transform Actions
+        $actions = $query->get()->map(function ($action) use ($xpNeeded, $currentLevel, $goalLevel, $xpCurrentLevel, $xpGoalLevel) {
             $action->margin = $action->sell - $action->buy;
             $action->margin_percent = $action->buy > 0 ? (($action->sell - $action->buy) / $action->buy) * 100 : 0;
             $action->quantity_needed = ($xpNeeded && $action->xp > 0) ? ceil($xpNeeded / $action->xp) : null;
             $action->first_ingredient = optional($action->ingredients->first())->name ?? '';
+
+            $actualCurrentLevel = $currentLevel ?? $xpCurrentLevel;
+            $actualGoalLevel = $goalLevel ?? $xpGoalLevel;
+
+            $action->can_do_now = $actualCurrentLevel !== null ? $action->level <= $actualCurrentLevel : false;
+            $action->within_goal = $actualGoalLevel !== null ? $action->level <= $actualGoalLevel : false;
+            $action->filter_highlight = $action->within_goal && !$action->can_do_now;
+
             return $action;
         });
 
-        // === Collection-Level Sorting (custom keys only) ===
+        // Collection-Level Sorting
         if ($sort === 'quantity_needed') {
             $actions = $actions->sortBy(function ($a) {
-                return $a->quantity_needed ?? PHP_INT_MAX; // Push nulls to bottom
+                return $a->quantity_needed ?? PHP_INT_MAX;
             }, SORT_REGULAR, $direction === 'desc')->values();
         } elseif ($sort === 'first_ingredient') {
             $actions = $actions->sortBy(function ($a) {
                 return $a->first_ingredient;
             }, SORT_REGULAR, $direction === 'desc')->values();
         } elseif (!in_array($sort, $validDbColumns) && in_array($direction, ['asc', 'desc'])) {
-            // Final fallback sort by any safe attribute
             $actions = $direction === 'asc'
                 ? $actions->sortBy($sort)->values()
                 : $actions->sortByDesc($sort)->values();
         } else {
-            // Reset collection keys regardless
             $actions = $actions->values();
         }
 
-        // === Return View ===
+        // Return View
         return view('actions.index', compact('actions', 'xpNeeded', 'sort', 'direction'))->with('showAll', false);
+
     }
 }
